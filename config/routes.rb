@@ -1,4 +1,8 @@
 AppsContest::Application.routes.draw do
+  resources :promotions
+
+  resources :categories
+
   resources :stores
 
   root "maps#index"
